@@ -1,0 +1,271 @@
+.form-control, .btn{
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: montserrat;
+}
+.img-1{
+    background-image: url('image1.png');
+    background-size: cover;
+    block-size: 100%;
+    background-position: center;
+}
+.img-2{
+    background-image: url('image2.png');
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.btn-outline {
+    border: 1px solid black;
+    background-color: #30336b;
+    color: black;
+    padding: 1px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 40px;
+    cursor: pointer;
+}
+/* Orange */
+.cerrar-sesion {
+    border-color: white;
+    color: white;
+  }
+  
+.cerrar-sesion:hover {
+    background: white;
+    color: black;
+}
+body {
+    background-color: white !important;
+    font-family: montserrat;
+}
+.btn-cards{
+    display: inline;
+}
+.btn-outline-card {
+    border: 1px solid #e74c3c;
+    background-color: transparent;
+    color: black;
+    padding: 1px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 40px;
+    cursor: pointer;
+}
+/* Orange */
+.btn-cards {
+    border-color: #e74c3c;
+    color: #e74c3c;
+  }
+  
+.btn-cards:hover {
+    background:#e74c3c;
+    color:white;
+}
+
+
+/*FOOTER*/
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#30336b;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:46px;
+    height:46px;
+    line-height:100%;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:1.0;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
+  .icon-fb{
+      border-radius: 50%;
+  }
+
+  .floating-btn{
+    width: 70px;
+    height: 70px;
+    background: #30336b;
+    border-color: #f0f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: red 0.25s;
+  }
+ 
+
+
+  .param {
+    margin-bottom: 7px;
+    line-height: 1.4;
+}
+.param-inline dt {
+    display: inline-block;
+}
+.param dt {
+    margin: 0;
+    margin-right: 7px;
+    font-weight: 600;
+}
+.param-inline dd {
+    vertical-align: baseline;
+    display: inline-block;
+}
+
+.param dd {
+    margin: 0;
+    vertical-align: baseline;
+} 
+
+.shopping-cart-wrap .price {
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+    display: block;
+}
+var {
+    font-style: normal;
+}
+
+.media img {
+    margin-right: 1rem;
+}
+.img-sm {
+    width: 90px;
+    max-height: 75px;
+    object-fit: cover;
+}
+
+
+/* Orange */
+.card-profile {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.img-profile{
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+}
+.title-profile {
+  color: grey;
+  font-size: 18px;
+}
+.name-user{
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+
+.button-profile {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+.button-profile:hover, a:hover {
+  opacity: 0.7;
+}

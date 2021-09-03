@@ -1,0 +1,238 @@
+.clear:after, #quick-view-popup:after, #quick-view-popup .qv-right .form-fields .row:after, ul.items:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+img {
+  border: none !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+iframe {
+  border: 0;
+  width: 100%;
+}
+
+body.show-quick-view #quick-view-popup,
+body.show-quick-view #quick-view-overlay {
+  display: block;
+}
+
+/**
+---------------------------------------------------------------
+ * 2.0 - Quick View Styles
+---------------------------------------------------------------
+**/
+#quick-view-overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  border-radius: 5px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+#quick-view-popup {
+  display: none;
+  background-color: #F3F3F3;
+  width: auto;
+  max-width: 700px;
+  border-radius: 5px;
+  height: auto;
+  max-height: 410px;
+  padding: 20px 20px 0 20px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 10;
+  overflow-y: auto;
+}
+
+#quick-view-popup .qv-left {
+  width: auto;
+  max-width: 270px;
+  float: left;
+}
+
+#quick-view-popup .qv-left .main-image-wrapper .image {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* imagen de la vemtanita*/
+#quick-view-popup .qv-left .main-image-wrapper .image img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 200px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+#quick-view-popup .qv-left .main-image-wrapper .image.current {
+  display: block;
+}
+
+#quick-view-popup .qv-left .zoom-cta {
+  color: #1D4563;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 250px
+}
+
+#quick-view-popup .qv-left .zoom-cta .fa-search-plus {
+  padding-right: 5px;
+  font-size: 15px;
+}
+
+#quick-view-popup .qv-left ul.thumbnails {
+  list-style-type: none;
+}
+
+#quick-view-popup .qv-left ul.thumbnails li {
+  float: left;
+  margin-right: 10px;
+}
+
+#quick-view-popup .qv-left ul.thumbnails li img {
+  width: auto;
+  max-width: 50px;
+  height: auto;
+  max-height: 70px;
+  cursor: pointer;
+}
+
+#quick-view-popup .qv-left ul.thumbnails li img:hover {
+  opacity: 0.9;
+}
+
+#quick-view-popup .qv-left ul.thumbnails li:last-child {
+  margin-right: 0;
+}
+
+#quick-view-popup .qv-right {
+  width: 350px;
+  float: right;
+  color: #000000;
+}
+
+#quick-view-popup .qv-right h2.name {
+  color: #1D4563;
+  font-size: 30px;
+  line-height: 1;
+  text-transform: none;
+  padding: 0 0 0 0;
+
+}
+
+#quick-view-popup .qv-right .description {
+  font-size: 16px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+#quick-view-popup .qv-right .pricing {
+  font-size: 14px;
+  text-align: justify;
+}
+#quick-view-popup .qv-right .pricing .tipos{
+  font-weight: bolder;
+}
+
+
+#quick-view-popup .qv-right .form-fields .row {
+  padding-bottom: 15px;
+}
+
+#quick-view-popup .qv-right .form-fields .row .left {
+  float: left;
+}
+
+#quick-view-popup .qv-right .form-fields .row .left label {
+  display: block;
+  font-size: 15px;
+  padding-top: 6px;
+}
+
+#quick-view-popup .qv-right .form-fields .row .right {
+  width: 220px;
+  float: right;
+}
+
+#quick-view-popup .qv-right .form-fields .row .right select,
+#quick-view-popup .qv-right .form-fields .row .right input.qv-qty {
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #1D4563;
+  font-size: 12px;
+}
+
+#quick-view-popup .qv-right .form-fields .row .right select {
+  width: 100%;
+  padding-left: 5px;
+}
+
+#quick-view-popup .qv-right .form-fields .row .right input.qv-qty {
+  width: 60px;
+  text-align: center;
+}
+
+#quick-view-popup .qv-right .form-fields .row .right button.qv-atc {
+  width: 100%;
+  background-color: #00691C;
+  color: #FFF;
+  border: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+#quick-view-popup .qv-right .form-fields .row .right button.qv-atc:hover {
+  opacity: 0.9;
+}
+
+#quick-view-popup .qv-right .form-fields .row:last-child {
+  padding-bottom: 0;
+}
+
+#quick-view-popup a.qv-close {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #828181;
+  font-size: 30px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+
+ul.items {
+  margin: auto;
+  float: left;
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+

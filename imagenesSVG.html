@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Personaliza tu pizza</h1>
+
+<svg width="250" height="250" style="border-style:solid;border-width:1px;">
+    
+  <circle cx="120" cy="120" r="111" style="fill: black; stroke-width: 2"/>
+  <circle id="orilla" cx="120" cy="120" r="108" style="fill: #C08D10; stroke-width: 5"/>
+  <circle id="circuloInterior" cx="120" cy="120" r="100" style="fill: #F7E091; stroke:#C08D10 ; stroke-width: 7"/>
+ 
+  <line x1="50" y1="50" x2="190" y2="190" style="stroke:rgb(0, 0, 0);stroke-width:2" />
+  <line x1="50" y1="190" x2="190" y2="50" style="stroke:rgb(0, 0, 0);stroke-width:2" />
+  <line x1="22" y1="120" x2="219" y2="120" style="stroke:rgb(0,0,0);stroke-width:2" />
+  <line x1="120" y1="22" x2="120" y2="219" style="stroke:rgb(0,0,0);stroke-width:2" />
+  
+  <rect x="75" y="50" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect id="rec1" x="80" y="45" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+  <rect x="100" y="45" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect id="rec2" x="105" y="40" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+  <rect x="100" y="80" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect  id="rec3"x="105" y="75" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+
+
+  <rect x="60" y="78" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect id="rec4" x="50" y="75" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+  <rect x="50" y="102" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect  id="rec5" x="40" y="100" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+  <rect x="85" y="103" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect  id="rec6" x="75" y="100" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+
+
+  <rect x="40" y="135" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect id="rec7" x="50" y="130" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+  <rect x="50" y="160" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect id="rec8" x="55" y="155" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+  <rect x="75" y="135" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect  id="rec9" x="80" y="130" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+
+
+  <rect x="70" y="185" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect id="rec10" x="75" y="180" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+  <rect x="95" y="195" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect  id="rec11" x="100" y="190" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+  <rect x="100" y="160" width="14" height="14" style="fill: #EA9F6C; stroke:black ; stroke-width: 1"/>
+  <rect  id="rec12" x="105" y="155" width="10" height="7" style="fill: yellow; stroke:black ; stroke-width: 1"/>
+
+
+  <circle  id="p1" cx="135" cy="195" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+  <circle  id="p2" cx="160" cy="185" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+  <circle  id="p3" cx="135" cy="160" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+
+  <circle  id="p4" cx="185" cy="160" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+  <circle  id="p5" cx="195" cy="135" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+  <circle  id="p6" cx="160" cy="136" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+
+  <circle  id="p7" cx="195" cy="105" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+  <circle  id="p8" cx="185" cy="75" r="10"  style="fill: red; stroke:black ; stroke-width: 3" />
+  <circle  id="p9" cx="160" cy="103" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+
+  <circle  id="p10" cx="165" cy="55" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+  <circle  id="p11" cx="135" cy="45" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+  <circle  id="p12" cx="135" cy="80" r="10" style="fill: red; stroke:black ; stroke-width: 3" />
+
+
+</svg> 
+<br>
+<h4>Elige la orilla de la pizza</h4>
+<button onclick="orilla.style.fill='#FBDE30';">Orilla de Queso</button>
+<button onclick="orilla.style.fill='#C08D10';">Orilla sin Queso</button>
+
+
+<h4>Elige el relleno de la pizza</h4>
+<button onclick="circuloInterior.style.fill='#FBF658';">Queso Amarillo</button>
+<button onclick="circuloInterior.style.fill='#FFFBC9';">Queso Blanco</button>
+<button onclick="circuloInterior.style.fill='#F69E59';">Salsa de Tomate</button>
+
+
+<h4>Elige el ingrediente (mitad pizza) </h4>
+<button onclick="rec1.style.fill='#62983A'; rec2.style.fill='#62983A'; rec3.style.fill='#62983A';
+rec4.style.fill='#62983A'; rec5.style.fill='#62983A'; rec6.style.fill='#62983A';
+rec7.style.fill='#62983A';rec8.style.fill='#62983A'; rec9.style.fill='#62983A'; 
+rec10.style.fill='#62983A';rec11.style.fill='#62983A';rec12.style.fill='#62983A';" >Cilantro</button>
+<button onclick="rec1.style.fill='#FFFB03'; rec2.style.fill='#FFFB03'; rec3.style.fill='#FFFB03';
+rec4.style.fill='#FFFB03'; rec5.style.fill='#FFFB03'; rec6.style.fill='#FFFB03';
+rec7.style.fill='#FFFB03'; rec8.style.fill='#FFFB03'; rec9.style.fill='#FFFB03';
+rec10.style.fill='#FFFB03'; rec11.style.fill='#FFFB03'; rec12.style.fill='#FFFB03';">Piña</button>
+
+<h4>Elige el termino del peperoni (mitad pizza)</h4>
+<button onclick="p1.style.fill='#EC3120'; p2.style.fill='#EC3120'; p3.style.fill='#EC3120';
+p4.style.fill='#EC3120'; p5.style.fill='#EC3120'; p6.style.fill='#EC3120';
+p7.style.fill='#EC3120';p8.style.fill='#EC3120'; p9.style.fill='#EC3120'; 
+p10.style.fill='#EC3120';p11.style.fill='#EC3120';p12.style.fill='#EC3120';" >Normal</button>
+<button onclick="p1.style.fill='#A93314'; p2.style.fill='#A93314'; p3.style.fill='#A93314';
+p4.style.fill='#A93314'; p5.style.fill='#A93314'; p6.style.fill='#A93314';
+p7.style.fill='#A93314'; p8.style.fill='#A93314'; p9.style.fill='#A93314';
+p10.style.fill='#A93314'; p11.style.fill='#A93314'; p12.style.fill='#A93314';">Bien Cocido</button>
+
+
+
+<br>
+<button style="margin-top: 30px;" onclick="window.location.replace('/dashboard.php');">Enviar sugerencia</button>
